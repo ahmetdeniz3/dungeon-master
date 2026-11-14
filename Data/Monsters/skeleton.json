@@ -1,0 +1,45 @@
+{
+  "id": "skeleton",
+  "name": "Skeleton",
+  "type": "undead",
+  "size": "Medium",
+  "challenge": {
+    "rating": "1/4",
+    "xp": 50
+  },
+  "ability_scores": {
+    "strength": 10,
+    "dexterity": 14,
+    "constitution": 15,
+    "intelligence": 6,
+    "wisdom": 8,
+    "charisma": 5
+  },
+  "combat": {
+    "armor_class": 13,
+    "hit_points": {
+      "average": 13,
+      "formula": "2d8+4"
+    },
+    "speed": {
+      "walking": 30,
+      "burrowing": 0,
+      "climbing": 0,
+      "flying": 0,
+      "swimming": 0
+    },
+    "initiative": {
+      "modifier": 2
+    }
+  },
+  "attacks": [
+    {
+      "name": "Shortsword",
+      "weapon_id": "shortsword",
+      "attack_bonus": 4,
+      "damage_dice": "1d6",
+      "damage_bonus": 2,
+      "damage_type": "piercing"
+    }
+  ]
+}

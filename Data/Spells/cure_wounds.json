@@ -1,0 +1,15 @@
+{
+  "id": "cure_wounds",
+  "name": "Cure Wounds",
+  "description": "Dokunarak 2d8 + büyü yeteneği kadar iyileştirir.",
+  "level": 1,
+  "school": "abjuration",
+  "attack_required": false,
+  "saving_throw_required": false,
+  "saving_throw_ability": null,
+  "damage": null,
+  "healing": {
+    "dice": "2d8"
+  },
+  "auto_hit": false
+}

@@ -1,0 +1,463 @@
+{
+  "schema_version": 1,
+  "ruleset": "DND_2024",
+
+  "id": "",
+  "name": "",
+  "description": "",
+
+  "hit_points": {
+    "hit_die": "d8",
+    "hp_at_level_1": 8,
+    "hp_per_additional_level": "1d8"
+  },
+
+  "primary_abilities": [],
+
+  "saving_throw_proficiencies": [],
+
+  "skill_proficiencies": {
+    "choose_amount": 0,
+    "options": []
+  },
+
+  "armor_proficiencies": [],
+
+  "weapon_proficiencies": [],
+
+  "tool_proficiencies": [],
+
+  "starting_equipment": [],
+
+  "starting_equipment_choices": [],
+
+  "starting_gold": 0,
+
+  "spellcasting": {
+    "enabled": false,
+    "ability": null,
+    "type": null,
+    "focus": null,
+
+    "cantrips_known": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0
+    },
+
+    "prepared_spells": {
+      "type": null,
+      "values": {}
+    },
+
+    "spell_slots": {
+      "1": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "2": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "3": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "4": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "5": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "6": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "7": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "8": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "9": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "10": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "11": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "12": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "13": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "14": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "15": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "16": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "17": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "18": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "19": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "20": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    }
+  },
+
+  "weapon_mastery": {
+    "enabled": false,
+    "maximum_choices_by_level": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0
+    },
+    "allowed_weapon_types": []
+  },
+
+  "subclass": {
+    "enabled": false,
+    "level": 3,
+    "available": []
+  },
+
+  "levels": {
+    "1": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    },
+
+    "2": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    },
+
+    "3": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    },
+
+    "4": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    },
+
+    "5": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    },
+
+    "6": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    },
+
+    "7": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    },
+
+    "8": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    },
+
+    "9": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    },
+
+    "10": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    },
+
+    "11": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    },
+
+    "12": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    },
+
+    "13": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    },
+
+    "14": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    },
+
+    "15": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    },
+
+    "16": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    },
+
+    "17": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    },
+
+    "18": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    },
+
+    "19": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    },
+
+    "20": {
+      "features": [],
+      "feat_choices": [],
+      "resource_changes": {}
+    }
+  },
+
+  "resources": {},
+
+  "multiclassing": {
+    "enabled": true,
+    "prerequisites": [],
+    "proficiencies_gained": {
+      "armor": [],
+      "weapons": [],
+      "tools": [],
+      "skills": []
+    }
+  },
+
+  "notes": ""
+}

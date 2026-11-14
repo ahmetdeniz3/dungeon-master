@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "ruleset": "DND_2024",
+
+  "id": "",
+  "name": "",
+  "description": "",
+
+  "category": "simple",
+  "type": "melee",
+
+  "damage": {
+    "dice": "1d6",
+    "damage_type": "slashing"
+  },
+
+  "versatile": {
+    "enabled": false,
+    "damage_dice": null
+  },
+
+  "range": {
+    "normal": 5,
+    "long": 5
+  },
+
+  "properties": [],
+
+  "mastery": {
+    "enabled": false,
+    "property": null
+  },
+
+  "cost": {
+    "amount": 0,
+    "currency": "gp"
+  },
+
+  "weight": 0,
+
+  "ammunition": {
+    "required": false,
+    "type": null,
+    "recovery": {
+      "enabled": false,
+      "recovery_time": "1 minute",
+      "recovery_fraction": 0.5
+    }
+  },
+
+  "requirements": {
+    "strength": null,
+    "dexterity": null,
+    "proficiency": null
+  },
+
+  "attack": {
+    "ability": "strength",
+    "finesse": false,
+    "thrown": false,
+    "melee": true,
+    "ranged": false
+  },
+
+  "special_rules": [],
+
+  "notes": ""
+}

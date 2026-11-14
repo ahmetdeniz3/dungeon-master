@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "ruleset": "DND_2024",
+
+  "id": "test_character",
+
+  "identity": {
+	"id": "test_character",
+	"name": "Ahmet"
+  },
+
+  "class": {
+	"id": "fighter",
+	"level": 1
+  },
+
+  "progression": {
+	"xp": 0
+  },
+
+  "ability_scores": {
+	"strength": 16,
+	"dexterity": 14,
+	"constitution": 12,
+	"intelligence": 10,
+	"wisdom": 10,
+	"charisma": 8
+  },
+
+  "inventory": {
+	"gold": 15,
+	"weapons": [
+	  "longsword",
+	  "scimitar",
+	  "shortbow",
+      "dagger"
+	],
+	"equipped_weapon": "longsword",
+	"armor": [
+	  "leather_armor",
+	  "chain_shirt",
+      "chain_mail"
+	],
+	"equipped_armor": "leather_armor",
+	"has_shield": true,
+	"equipped_shield": "",
+	"items": {
+	  "healing_potion": 2,
+	  "torch": 2,
+	  "ration": 3
+	}
+  },
+
+  "combat": {
+	"hit_points": {
+	  "maximum": 12,
+	  "current": 12
+	},
+	"hit_dice": {
+	  "sides": 10,
+	  "current": 1
+	},
+	"armor_class": 13,
+	"initiative_bonus": 2,
+	"speed": {
+	  "walking": 30
+	}
+  },
+
+  "skills": {
+	"acrobatics": { "proficient": false, "expertise": false },
+	"athletics": { "proficient": true, "expertise": false },
+	"stealth": { "proficient": true, "expertise": true },
+	"perception": { "proficient": false, "expertise": false }
+  },
+
+  "saving_throws": {
+	"strength": { "proficient": true },
+	"dexterity": { "proficient": false },
+	"constitution": { "proficient": true },
+	"intelligence": { "proficient": false },
+	"wisdom": { "proficient": false },
+	"charisma": { "proficient": false }
+  }
+}

@@ -1,0 +1,9 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# C# / IDE & temporary build outputs
+.vs/
+*.user
+bin/
+obj/

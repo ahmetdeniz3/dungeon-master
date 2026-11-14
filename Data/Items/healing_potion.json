@@ -1,0 +1,9 @@
+{
+  "id": "healing_potion",
+  "name": "Potion of Healing",
+  "description": "İçildiğinde 2d4+2 HP iyileştirir.",
+  "category": "potion",
+  "consumable": true,
+  "healing_dice": "2d4+2",
+  "value_gp": 50
+}

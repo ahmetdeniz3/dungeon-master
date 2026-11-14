@@ -1,0 +1,16 @@
+{
+  "id": "shortbow",
+  "name": "Shortbow",
+  "category": "simple_ranged",
+  "damage": {
+    "dice": "1d6",
+    "type": "piercing"
+  },
+  "ability": "dexterity",
+  "properties": {
+    "finesse": false
+  },
+  "mastery": {
+    "name": "Vex"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "ruleset": "DND_2024",
+
+  "id": "",
+  "name": "",
+  "description": "",
+
+  "source": {
+    "type": "",
+    "id": ""
+  },
+
+  "generation": {
+    "type": "fixed",
+    "rolls": []
+  },
+
+  "items": [],
+
+  "currency": {
+    "cp": 0,
+    "sp": 0,
+    "ep": 0,
+    "gp": 0,
+    "pp": 0
+  },
+
+  "rarity": {
+    "minimum": null,
+    "maximum": null
+  },
+
+  "requirements": {
+    "level": null,
+    "class": [],
+    "species": [],
+    "other": []
+  },
+
+  "discovered": false,
+
+  "claimed": false,
+
+  "container": {
+    "enabled": false,
+    "item_id": null
+  },
+
+  "special_rules": [],
+
+  "tags": [],
+
+  "notes": ""
+}

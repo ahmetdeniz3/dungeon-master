@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://dcmvffuev8rdk"]
+
+[node name="UserInterface" type="Node2D" unique_id=481601574]
+
+[node name="CombatUI" type="Control" parent="." unique_id=623092896]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PlayerHP" type="Label" parent="CombatUI" unique_id=1852837114]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="MonsterHP" type="Label" parent="CombatUI" unique_id=677818380]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="TurnLabel" type="Label" parent="CombatUI" unique_id=664358874]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="MovementLabel" type="Label" parent="CombatUI" unique_id=1142581617]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AttackButton" type="Button" parent="CombatUI" unique_id=1272144949]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="EndTurnButton" type="Button" parent="CombatUI" unique_id=1263589783]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="CombatLog" type="RichTextLabel" parent="CombatUI" unique_id=917304690]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0

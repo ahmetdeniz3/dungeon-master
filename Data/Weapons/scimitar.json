@@ -1,0 +1,16 @@
+{
+  "id": "scimitar",
+  "name": "Scimitar",
+  "category": "martial_melee",
+  "damage": {
+    "dice": "1d6",
+    "type": "slashing"
+  },
+  "ability": "dexterity",
+  "properties": {
+    "finesse": true
+  },
+  "mastery": {
+    "name": "Nick"
+  }
+}

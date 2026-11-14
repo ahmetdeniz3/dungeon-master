@@ -1,0 +1,9 @@
+{
+  "id": "chain_shirt",
+  "name": "Chain Shirt",
+  "category": "medium",
+  "armor_class": 13,
+  "armor_type": "medium",
+  "dexterity_bonus_cap": 2,
+  "stealth_disadvantage": false
+}

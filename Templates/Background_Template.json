@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "ruleset": "DND_2024",
+
+  "id": "",
+  "name": "",
+  "description": "",
+
+  "ability_score_options": {
+    "options": [],
+    "amount": 3
+  },
+
+  "origin_feat": {
+    "id": ""
+  },
+
+  "skill_proficiencies": [],
+
+  "tool_proficiency": {
+    "id": ""
+  },
+
+  "languages": {
+    "options": [],
+    "amount": 1
+  },
+
+  "starting_equipment": [],
+
+  "starting_currency": {
+    "gp": 0
+  },
+
+  "background_features": [],
+
+  "story": {
+    "personality_traits": [],
+    "ideals": [],
+    "bonds": [],
+    "flaws": []
+  },
+
+  "notes": ""
+}

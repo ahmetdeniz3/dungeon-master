@@ -1,0 +1,16 @@
+{
+  "id": "dagger",
+  "name": "Dagger",
+  "category": "simple_melee",
+  "damage": {
+    "dice": "1d4",
+    "type": "piercing"
+  },
+  "ability": "dexterity",
+  "properties": {
+    "finesse": true
+  },
+  "mastery": {
+    "name": "Nick"
+  }
+}

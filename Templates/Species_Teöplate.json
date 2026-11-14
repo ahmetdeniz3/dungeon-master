@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "ruleset": "DND_2024",
+
+  "id": "",
+  "name": "",
+  "description": "",
+
+  "size": {
+    "category": "Medium"
+  },
+
+  "speed": {
+    "walking": 30,
+    "burrowing": 0,
+    "climbing": 0,
+    "flying": 0,
+    "swimming": 0
+  },
+
+  "lifespan": {
+    "maturity": null,
+    "maximum": null
+  },
+
+  "languages": {
+    "known": [],
+    "options": []
+  },
+
+  "senses": {
+    "darkvision": 0,
+    "blindsight": 0,
+    "tremorsense": 0,
+    "truesight": 0
+  },
+
+  "traits": [],
+
+  "proficiencies": {
+    "skills": [],
+    "weapons": [],
+    "armor": [],
+    "tools": []
+  },
+
+  "resistances": [],
+
+  "immunities": [],
+
+  "vulnerabilities": [],
+
+  "special_movement": [],
+
+  "subspecies": [],
+
+  "notes": ""
+}

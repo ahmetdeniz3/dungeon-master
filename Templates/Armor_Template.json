@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "ruleset": "DND_2024",
+
+  "id": "",
+  "name": "",
+  "description": "",
+
+  "category": "light",
+
+  "armor_class": {
+    "base": 11,
+    "dexterity_bonus": {
+      "enabled": true,
+      "maximum": null
+    }
+  },
+
+  "shield": {
+    "enabled": false,
+    "ac_bonus": 0
+  },
+
+  "strength_requirement": {
+    "enabled": false,
+    "minimum": null,
+    "speed_penalty": 10
+  },
+
+  "stealth": {
+    "disadvantage": false
+  },
+
+  "training": {
+    "category": "light"
+  },
+
+  "don_doff": {
+    "don": {
+      "time": 1,
+      "unit": "minute"
+    },
+    "doff": {
+      "time": 1,
+      "unit": "minute"
+    }
+  },
+
+  "cost": {
+    "amount": 0,
+    "currency": "gp"
+  },
+
+  "weight": 0,
+
+  "properties": [],
+
+  "modifications": {
+    "armor_class": 0,
+    "speed": 0,
+    "saving_throws": [],
+    "skills": [],
+    "ability_checks": []
+  },
+
+  "resistances": [],
+
+  "immunities": [],
+
+  "special_rules": [],
+
+  "magic": {
+    "enabled": false,
+    "requires_attunement": false,
+    "bonus_to_ac": 0,
+    "effects": []
+  },
+
+  "notes": ""
+}

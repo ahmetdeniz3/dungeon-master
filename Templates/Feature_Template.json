@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "ruleset": "DND_2024",
+
+  "id": "",
+  "name": "",
+  "description": "",
+
+  "source": {
+    "type": "",
+    "id": ""
+  },
+
+  "category": "",
+
+  "level_required": null,
+
+  "repeatable": false,
+
+  "passive": false,
+
+  "activation": {
+    "type": null,
+    "action_cost": null
+  },
+
+  "uses": {
+    "enabled": false,
+    "maximum": 0,
+    "recharge": null,
+    "recharge_amount": null
+  },
+
+  "requirements": {
+    "level": null,
+    "class": [],
+    "subclass": [],
+    "species": [],
+    "ability_scores": [],
+    "proficiencies": [],
+    "feats": [],
+    "other": []
+  },
+
+  "effects": [],
+
+  "modifications": {
+    "ability_scores": [],
+    "armor_class": 0,
+    "hit_points": 0,
+    "speed": 0,
+    "initiative": 0,
+    "saving_throws": [],
+    "skills": [],
+    "attack_rolls": [],
+    "damage_rolls": [],
+    "spell_attack": 0,
+    "spell_save_dc": 0,
+    "senses": [],
+    "resistances": [],
+    "immunities": [],
+    "vulnerabilities": []
+  },
+
+  "proficiencies": {
+    "skills": [],
+    "weapons": [],
+    "armor": [],
+    "tools": [],
+    "languages": []
+  },
+
+  "actions": {
+    "actions": [],
+    "bonus_actions": [],
+    "reactions": [],
+    "free_actions": []
+  },
+
+  "choices": [],
+
+  "spells": {
+    "grants": [],
+    "always_prepared": [],
+    "additional_spells": []
+  },
+
+  "conditions": {
+    "grants": [],
+    "removes": [],
+    "immunities": []
+  },
+
+  "special_rules": [],
+
+  "tags": [],
+
+  "notes": ""
+}

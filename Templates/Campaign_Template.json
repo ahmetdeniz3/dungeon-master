@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "ruleset": "DND_2024",
+
+  "id": "",
+  "name": "",
+  "description": "",
+
+  "world": {
+    "name": "",
+    "description": "",
+    "setting": "",
+    "current_date": "",
+    "current_time": "",
+    "current_location": ""
+  },
+
+  "players": [],
+
+  "party": [],
+
+  "characters": [],
+
+  "npcs": [],
+
+  "locations": [],
+
+  "factions": [],
+
+  "quests": [],
+
+  "encounters": [],
+
+  "discovered_locations": [],
+
+  "discovered_secrets": [],
+
+  "world_state": {},
+
+  "story": {
+    "main_plot": "",
+    "current_arc": "",
+    "current_objective": "",
+    "completed_events": [],
+    "active_events": [],
+    "future_events": []
+  },
+
+  "relationships": [],
+
+  "inventory": [],
+
+  "important_items": [],
+
+  "lore": [],
+
+  "rules": {
+    "house_rules": [],
+    "difficulty": "normal"
+  },
+
+  "history": [],
+
+  "memory": {
+    "short_term": [],
+    "long_term": []
+  },
+
+  "notes": ""
+}

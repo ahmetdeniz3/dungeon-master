@@ -1,0 +1,167 @@
+[gd_scene format=3 uid="uid://b7dg3anr6x8nh"]
+
+[ext_resource type="Script" uid="uid://bm25be1xs0lgo" path="res://CombatUI.cs" id="1_3aeni"]
+[ext_resource type="Script" path="res://Scripts/CombatMapView.cs" id="2_map01"]
+
+[node name="CombatUI" type="PanelContainer" unique_id=235164334]
+custom_minimum_size = Vector2(325, 0)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_3aeni")
+
+[node name="Margin" type="MarginContainer" parent="." unique_id=101000001]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="VBox" type="VBoxContainer" parent="Margin" unique_id=101000002]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="HeaderLabel" type="Label" parent="Margin/VBox" unique_id=101000003]
+layout_mode = 2
+text = "⚔ SAVAŞ PANELİ"
+
+[node name="PlayerHP" type="Label" parent="Margin/VBox" unique_id=1116927629]
+layout_mode = 2
+text = "Oyuncu HP: -"
+autowrap_mode = 2
+
+[node name="MonsterHP" type="Label" parent="Margin/VBox" unique_id=1412276304]
+layout_mode = 2
+text = "Düşmanlar: Yok"
+autowrap_mode = 2
+
+[node name="TurnInfoRow" type="HBoxContainer" parent="Margin/VBox" unique_id=101000005]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="TurnLabel" type="Label" parent="Margin/VBox/TurnInfoRow" unique_id=1995816281]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Aktif savaş yok"
+
+[node name="MovementLabel" type="Label" parent="Margin/VBox/TurnInfoRow" unique_id=331578008]
+layout_mode = 2
+text = "Mesafe: -"
+
+[node name="ActionStatusLabel" type="Label" parent="Margin/VBox" unique_id=101000019]
+layout_mode = 2
+theme_override_font_sizes/font_size = 13
+text = "Durum: Savaş bekleniyor"
+autowrap_mode = 2
+
+[node name="CombatMap" type="Control" parent="Margin/VBox" unique_id=101000020]
+visible = false
+custom_minimum_size = Vector2(0, 128)
+layout_mode = 2
+script = ExtResource("2_map01")
+
+[node name="TargetSelector" type="OptionButton" parent="Margin/VBox" unique_id=101000006]
+layout_mode = 2
+clip_text = true
+fit_to_longest_item = false
+
+[node name="EquipRow" type="HBoxContainer" parent="Margin/VBox" unique_id=101000007]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="WeaponSelector" type="OptionButton" parent="Margin/VBox/EquipRow" unique_id=1678081433]
+layout_mode = 2
+size_flags_horizontal = 3
+clip_text = true
+fit_to_longest_item = false
+
+[node name="ArmorSelector" type="OptionButton" parent="Margin/VBox/EquipRow" unique_id=1534940841]
+layout_mode = 2
+size_flags_horizontal = 3
+clip_text = true
+fit_to_longest_item = false
+
+[node name="ShieldButton" type="Button" parent="Margin/VBox/EquipRow" unique_id=101000013]
+layout_mode = 2
+text = "🛡 Kalkan"
+
+[node name="ActionRow1" type="HBoxContainer" parent="Margin/VBox" unique_id=101000008]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="AttackButton" type="Button" parent="Margin/VBox/ActionRow1" unique_id=610101709]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "⚔ Saldır"
+
+[node name="DodgeButton" type="Button" parent="Margin/VBox/ActionRow1" unique_id=101000014]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "🛡 Savun"
+
+[node name="EndTurnButton" type="Button" parent="Margin/VBox/ActionRow1" unique_id=1976625349]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Turu Bitir"
+
+[node name="MoveRow" type="HBoxContainer" parent="Margin/VBox" unique_id=101000015]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="MoveButton" type="Button" parent="Margin/VBox/MoveRow" unique_id=856389846]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Yaklaş 10ft"
+
+[node name="RetreatButton" type="Button" parent="Margin/VBox/MoveRow" unique_id=101000016]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Uzaklaş 10ft"
+
+[node name="PotionButton" type="Button" parent="Margin/VBox/MoveRow" unique_id=101000017]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "🧪 İksir"
+
+[node name="ActionRow2" type="HBoxContainer" parent="Margin/VBox" unique_id=101000009]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="BonusActionButton" type="Button" parent="Margin/VBox/ActionRow2" unique_id=1396649162]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Bonus Action"
+
+[node name="ReactionButton" type="Button" parent="Margin/VBox/ActionRow2" unique_id=1990315103]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Reaction"
+
+[node name="FleeButton" type="Button" parent="Margin/VBox/ActionRow2" unique_id=101000018]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "🏃 Kaç"
+
+[node name="SpellRow" type="HBoxContainer" parent="Margin/VBox" unique_id=101000010]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="SpellSelector" type="OptionButton" parent="Margin/VBox/SpellRow" unique_id=101000011]
+layout_mode = 2
+size_flags_horizontal = 3
+clip_text = true
+fit_to_longest_item = false
+
+[node name="CastSpellButton" type="Button" parent="Margin/VBox/SpellRow" unique_id=101000012]
+layout_mode = 2
+text = "✨ Büyü At"
+
+[node name="CombatLog" type="RichTextLabel" parent="Margin/VBox" unique_id=150559559]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/normal_font_size = 15
+theme_override_font_sizes/bold_font_size = 15
+scroll_following = true

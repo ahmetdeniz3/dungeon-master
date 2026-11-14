@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "ruleset": "DND_2024",
+
+  "id": "",
+  "name": "",
+  "description": "",
+
+  "type": "",
+  "size": "Medium",
+
+  "alignment": null,
+
+  "challenge": {
+    "rating": null,
+    "xp": 0,
+    "proficiency_bonus": 0
+  },
+
+  "ability_scores": {
+    "strength": 10,
+    "dexterity": 10,
+    "constitution": 10,
+    "intelligence": 10,
+    "wisdom": 10,
+    "charisma": 10
+  },
+
+  "combat": {
+    "armor_class": 10,
+
+    "hit_points": {
+      "average": 1,
+      "formula": "1d8"
+    },
+
+    "speed": {
+      "walking": 30,
+      "burrowing": 0,
+      "climbing": 0,
+      "flying": 0,
+      "swimming": 0
+    },
+
+    "initiative": {
+      "modifier": 0,
+      "score": null
+    }
+  },
+
+  "saving_throws": {},
+
+  "skills": {},
+
+  "proficiencies": {
+    "armor": [],
+    "weapons": [],
+    "tools": [],
+    "languages": []
+  },
+
+  "senses": {
+    "darkvision": 0,
+    "blindsight": 0,
+    "tremorsense": 0,
+    "truesight": 0,
+    "passive_perception": 10
+  },
+
+  "languages": [],
+
+  "resistances": [],
+
+  "immunities": {
+    "damage": [],
+    "conditions": []
+  },
+
+  "vulnerabilities": [],
+
+  "traits": [],
+
+  "actions": [],
+
+  "bonus_actions": [],
+
+  "reactions": [],
+
+  "legendary_actions": [],
+
+  "lair_actions": [],
+
+  "spellcasting": {
+    "enabled": false,
+    "ability": null,
+    "spell_save_dc": null,
+    "spell_attack_bonus": null,
+    "spells": []
+  },
+
+  "equipment": [],
+
+  "loot": [],
+
+  "behavior": {
+    "aggression": "neutral",
+    "intelligence": "average",
+    "morale": "normal",
+    "preferred_targets": [],
+    "tactics": []
+  },
+
+  "tags": [],
+
+  "notes": ""
+}

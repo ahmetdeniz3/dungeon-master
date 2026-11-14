@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "ruleset": "DND_2024",
+
+  "id": "",
+  "name": "",
+  "description": "",
+
+  "type": "",
+
+  "duration": {
+    "type": "instantaneous",
+    "value": 0,
+    "unit": "round"
+  },
+
+  "target": {
+    "type": "creature",
+    "maximum": 1,
+    "area": {
+      "enabled": false,
+      "shape": null,
+      "size": 0,
+      "unit": "feet"
+    }
+  },
+
+  "magnitude": {
+    "flat": 0,
+    "dice": null,
+    "scaling": []
+  },
+
+  "damage": {
+    "enabled": false,
+    "damage_type": null
+  },
+
+  "healing": {
+    "enabled": false,
+    "healing_type": null
+  },
+
+  "modifications": {
+    "ability_scores": [],
+    "armor_class": 0,
+    "speed": 0,
+    "initiative": 0,
+    "attack_rolls": [],
+    "damage_rolls": [],
+    "saving_throws": [],
+    "ability_checks": [],
+    "skills": []
+  },
+
+  "conditions": {
+    "apply": [],
+    "remove": []
+  },
+
+  "resources": {
+    "hp": 0,
+    "temporary_hp": 0,
+    "spell_slots": [],
+    "class_resources": [],
+    "other": []
+  },
+
+  "resistances": {
+    "add": [],
+    "remove": []
+  },
+
+  "immunities": {
+    "add": [],
+    "remove": []
+  },
+
+  "movement": {
+    "forced": false,
+    "distance": 0,
+    "direction": null
+  },
+
+  "saving_throw": {
+    "required": false,
+    "ability": null,
+    "dc": null,
+    "on_success": null,
+    "on_failure": null
+  },
+
+  "attack": {
+    "required": false,
+    "type": null,
+    "bonus": 0
+  },
+
+  "triggers": [],
+
+  "special_rules": [],
+
+  "tags": [],
+
+  "notes": ""
+}

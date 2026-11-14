@@ -1,0 +1,45 @@
+{
+  "id": "bandit",
+  "name": "Bandit",
+  "type": "humanoid",
+  "size": "Medium",
+  "challenge": {
+    "rating": "1/8",
+    "xp": 25
+  },
+  "ability_scores": {
+    "strength": 11,
+    "dexterity": 12,
+    "constitution": 12,
+    "intelligence": 10,
+    "wisdom": 10,
+    "charisma": 10
+  },
+  "combat": {
+    "armor_class": 12,
+    "hit_points": {
+      "average": 11,
+      "formula": "2d8+2"
+    },
+    "speed": {
+      "walking": 30,
+      "burrowing": 0,
+      "climbing": 0,
+      "flying": 0,
+      "swimming": 0
+    },
+    "initiative": {
+      "modifier": 1
+    }
+  },
+  "attacks": [
+    {
+      "name": "Scimitar",
+      "weapon_id": "scimitar",
+      "attack_bonus": 3,
+      "damage_dice": "1d6",
+      "damage_bonus": 1,
+      "damage_type": "slashing"
+    }
+  ]
+}

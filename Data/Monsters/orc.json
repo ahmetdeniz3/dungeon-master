@@ -1,0 +1,45 @@
+{
+  "id": "orc",
+  "name": "Orc",
+  "type": "humanoid",
+  "size": "Medium",
+  "challenge": {
+    "rating": "1/2",
+    "xp": 100
+  },
+  "ability_scores": {
+    "strength": 16,
+    "dexterity": 12,
+    "constitution": 16,
+    "intelligence": 7,
+    "wisdom": 11,
+    "charisma": 10
+  },
+  "combat": {
+    "armor_class": 13,
+    "hit_points": {
+      "average": 15,
+      "formula": "2d8+6"
+    },
+    "speed": {
+      "walking": 30,
+      "burrowing": 0,
+      "climbing": 0,
+      "flying": 0,
+      "swimming": 0
+    },
+    "initiative": {
+      "modifier": 1
+    }
+  },
+  "attacks": [
+    {
+      "name": "Greataxe",
+      "weapon_id": "greataxe",
+      "attack_bonus": 5,
+      "damage_dice": "1d12",
+      "damage_bonus": 3,
+      "damage_type": "slashing"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "ruleset": "DND_2024",
+
+  "id": "",
+  "name": "",
+  "description": "",
+
+  "category": "",
+  "subcategory": "",
+
+  "item_type": "",
+
+  "quantity": 1,
+
+  "weight": 0,
+
+  "cost": {
+    "amount": 0,
+    "currency": "gp"
+  },
+
+  "rarity": "common",
+
+  "attunement": {
+    "required": false,
+    "requirements": []
+  },
+
+  "stackable": false,
+
+  "consumable": false,
+
+  "usable": false,
+
+  "equippable": false,
+
+  "equipment_slot": null,
+
+  "proficiency_required": null,
+
+  "properties": [],
+
+  "effects": [],
+
+  "charges": {
+    "enabled": false,
+    "maximum": 0,
+    "current": 0,
+    "recharge": null
+  },
+
+  "activation": {
+    "type": null,
+    "action_cost": null
+  },
+
+  "requirements": {
+    "level": null,
+    "ability_scores": [],
+    "class": [],
+    "species": [],
+    "other": []
+  },
+
+  "container": {
+    "enabled": false,
+    "capacity_weight": 0,
+    "contents": []
+  },
+
+  "magic": {
+    "enabled": false,
+    "bonus": 0,
+    "effects": []
+  },
+
+  "special_rules": [],
+
+  "notes": ""
+}

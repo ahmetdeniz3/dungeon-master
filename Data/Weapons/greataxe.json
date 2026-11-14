@@ -1,0 +1,16 @@
+{
+  "id": "greataxe",
+  "name": "Greataxe",
+  "category": "martial_melee",
+  "damage": {
+    "dice": "1d12",
+    "type": "slashing"
+  },
+  "ability": "strength",
+  "properties": {
+    "finesse": false
+  },
+  "mastery": {
+    "name": "Cleave"
+  }
+}

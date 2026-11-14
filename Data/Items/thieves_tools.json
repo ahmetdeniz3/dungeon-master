@@ -1,0 +1,9 @@
+{
+  "id": "thieves_tools",
+  "name": "Thieves' Tools",
+  "description": "Kilit açma ve tuzak etkisiz hale getirme aletleri.",
+  "category": "tool",
+  "consumable": false,
+  "healing_dice": "",
+  "value_gp": 25
+}

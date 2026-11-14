@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "ruleset": "DND_2024",
+
+  "id": "",
+  "name": "",
+  "description": "",
+
+  "category": "",
+
+  "prerequisites": {
+    "level": null,
+
+    "classes": [],
+
+    "species": [],
+
+    "ability_scores": [],
+
+    "proficiencies": [],
+
+    "features": [],
+
+    "feats": [],
+
+    "spellcasting": false,
+
+    "other": []
+  },
+
+  "repeatable": false,
+
+  "ability_score_increase": {
+    "enabled": false,
+
+    "amount": 0,
+
+    "options": [],
+
+    "maximum": 20,
+
+    "choose_amount": 0
+  },
+
+  "benefits": [],
+
+  "choices": [],
+
+  "proficiencies": {
+    "skills": [],
+    "tools": [],
+    "weapons": [],
+    "armor": [],
+    "languages": []
+  },
+
+  "spells": {
+    "enabled": false,
+
+    "cantrips": [],
+
+    "spells": [],
+
+    "spell_list_options": [],
+
+    "spellcasting_ability": null
+  },
+
+  "resources": [],
+
+  "modifications": {
+    "armor_class": 0,
+    "speed": 0,
+    "initiative": 0,
+
+    "hit_points": 0,
+
+    "saving_throws": [],
+
+    "skills": [],
+
+    "attack_rolls": [],
+
+    "damage_rolls": [],
+
+    "damage_resistances": [],
+
+    "damage_immunities": [],
+
+    "damage_vulnerabilities": [],
+
+    "senses": []
+  },
+
+  "action_options": {
+    "actions": [],
+    "bonus_actions": [],
+    "reactions": [],
+    "free_actions": []
+  },
+
+  "conditions": {
+    "grants": [],
+    "removes": [],
+    "immunities": []
+  },
+
+  "special_rules": [],
+
+  "notes": ""
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "ruleset": "DND_2024",
+
+  "id": "",
+  "name": "",
+  "description": "",
+
+  "level": 0,
+
+  "school": "",
+
+  "ritual": false,
+
+  "casting_time": {
+    "type": "action",
+    "value": 1,
+    "unit": "action"
+  },
+
+  "range": {
+    "type": "feet",
+    "value": 30
+  },
+
+  "components": {
+    "verbal": false,
+    "somatic": false,
+    "material": {
+      "required": false,
+      "description": "",
+      "cost": 0,
+      "currency": "gp",
+      "consumed": false
+    }
+  },
+
+  "duration": {
+    "type": "instantaneous",
+    "value": 0,
+    "unit": "instant"
+  },
+
+  "concentration": false,
+
+  "targets": {
+    "type": "creature",
+    "maximum": 1,
+    "area": {
+      "enabled": false,
+      "shape": null,
+      "size": 0,
+      "unit": "feet"
+    }
+  },
+
+  "attack": {
+    "required": false,
+    "type": null,
+    "ability": null
+  },
+
+  "saving_throw": {
+    "required": false,
+    "ability": null,
+    "dc_type": null
+  },
+
+  "damage": {
+    "enabled": false,
+    "dice": null,
+    "damage_type": null,
+    "scaling": []
+  },
+
+  "healing": {
+    "enabled": false,
+    "dice": null,
+    "scaling": []
+  },
+
+  "effects": [],
+
+  "conditions": {
+    "applies": [],
+    "removes": []
+  },
+
+  "upcasting": {
+    "enabled": false,
+    "effects": []
+  },
+
+  "classes": [],
+
+  "subclasses": [],
+
+  "spell_lists": [],
+
+  "availability": {
+    "cantrip": false,
+    "prepared": false,
+    "known": false
+  },
+
+  "components_rules": [],
+
+  "special_rules": [],
+
+  "tags": [],
+
+  "notes": ""
+}

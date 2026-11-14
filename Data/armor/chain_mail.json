@@ -1,0 +1,9 @@
+{
+  "id": "chain_mail",
+  "name": "Chain Mail",
+  "category": "heavy",
+  "armor_class": 16,
+  "armor_type": "heavy",
+  "dexterity_bonus_cap": 0,
+  "stealth_disadvantage": true
+}

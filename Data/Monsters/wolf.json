@@ -1,0 +1,45 @@
+{
+  "id": "wolf",
+  "name": "Wolf",
+  "type": "beast",
+  "size": "Medium",
+  "challenge": {
+    "rating": "1/4",
+    "xp": 50
+  },
+  "ability_scores": {
+    "strength": 12,
+    "dexterity": 15,
+    "constitution": 12,
+    "intelligence": 3,
+    "wisdom": 12,
+    "charisma": 6
+  },
+  "combat": {
+    "armor_class": 13,
+    "hit_points": {
+      "average": 11,
+      "formula": "2d8+2"
+    },
+    "speed": {
+      "walking": 40,
+      "burrowing": 0,
+      "climbing": 0,
+      "flying": 0,
+      "swimming": 0
+    },
+    "initiative": {
+      "modifier": 2
+    }
+  },
+  "attacks": [
+    {
+      "name": "Bite",
+      "weapon_id": "bite",
+      "attack_bonus": 4,
+      "damage_dice": "2d4",
+      "damage_bonus": 2,
+      "damage_type": "piercing"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "leather_armor",
+  "name": "Leather Armor",
+  "category": "light",
+  "armor_class": 11,
+  "armor_type": "light",
+  "dexterity_bonus_cap": 0,
+  "stealth_disadvantage": false
+}

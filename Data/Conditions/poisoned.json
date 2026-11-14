@@ -1,0 +1,9 @@
+{
+  "id": "poisoned",
+  "name": "Poisoned",
+  "description": "Saldırı atışlarında ve yetenek kontrollerinde dezavantaj alır.",
+  "attack_disadvantage": true,
+  "incoming_attack_advantage": false,
+  "cannot_act": false,
+  "speed_penalty": 0
+}

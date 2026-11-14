@@ -1,0 +1,16 @@
+{
+  "id": "magic_missile",
+  "name": "Magic Missile",
+  "description": "Iskalamayan 3 büyülü ok fırlatır (3d4+3 force).",
+  "level": 1,
+  "school": "evocation",
+  "attack_required": false,
+  "saving_throw_required": false,
+  "saving_throw_ability": null,
+  "damage": {
+    "dice": "3d4+3",
+    "type": "force"
+  },
+  "healing": null,
+  "auto_hit": true
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "ruleset": "DND_2024",
+
+  "id": "",
+  "name": "",
+  "description": "",
+
+  "category": "condition",
+
+  "duration": {
+    "type": "rounds",
+    "value": 1
+  },
+
+  "stacking": {
+    "allowed": false,
+    "maximum": 1,
+    "refresh_duration": true
+  },
+
+  "effects": [],
+
+  "modifications": {
+    "ability_checks": [],
+    "attack_rolls": [],
+    "saving_throws": [],
+    "armor_class": 0,
+    "speed": 0,
+    "movement": {
+      "disabled": false,
+      "types": []
+    }
+  },
+
+  "restrictions": {
+    "actions": [],
+    "bonus_actions": [],
+    "reactions": [],
+    "spellcasting": false,
+    "concentration": false
+  },
+
+  "immunities": {
+    "conditions": [],
+    "damage_types": []
+  },
+
+  "removal": {
+    "automatic": false,
+    "methods": [],
+    "saving_throw": {
+      "required": false,
+      "ability": null,
+      "dc": null
+    }
+  },
+
+  "triggers": [],
+
+  "visual": {
+    "icon": "",
+    "color": "",
+    "display_name": ""
+  },
+
+  "tags": [],
+
+  "notes": ""
+}

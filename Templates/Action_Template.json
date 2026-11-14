@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "ruleset": "DND_2024",
+
+  "id": "",
+  "name": "",
+  "description": "",
+
+  "type": "",
+
+  "activation": {
+    "cost": "",
+    "quantity": 1
+  },
+
+  "actor": {
+    "required": true,
+    "type": "creature"
+  },
+
+  "target": {
+    "type": "creature",
+    "maximum": 1,
+    "range": 5,
+
+    "area": {
+      "enabled": false,
+      "shape": null,
+      "size": 0,
+      "unit": "feet"
+    }
+  },
+
+  "attack": {
+    "required": false,
+    "type": null,
+    "ability": null,
+    "bonus": 0
+  },
+
+  "saving_throw": {
+    "required": false,
+    "ability": null,
+    "dc": null
+  },
+
+  "damage": {
+    "enabled": false,
+    "dice": null,
+    "damage_type": null
+  },
+
+  "effects": [],
+
+  "conditions": {
+    "apply": [],
+    "remove": []
+  },
+
+  "movement": {
+    "enabled": false,
+    "distance": 0,
+    "direction": null
+  },
+
+  "resource_cost": {
+    "enabled": false,
+    "resources": []
+  },
+
+  "requirements": {
+    "level": null,
+    "class": [],
+    "weapon": [],
+    "spell": [],
+    "feature": [],
+    "other": []
+  },
+
+  "recharge": {
+    "enabled": false,
+    "type": null,
+    "value": null
+  },
+
+  "special_rules": [],
+
+  "tags": [],
+
+  "notes": ""
+}

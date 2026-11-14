@@ -1,0 +1,16 @@
+{
+  "id": "fire_bolt",
+  "name": "Fire Bolt",
+  "description": "Hedefe ateş oku fırlatır (1d10 fire).",
+  "level": 0,
+  "school": "evocation",
+  "attack_required": true,
+  "saving_throw_required": false,
+  "saving_throw_ability": null,
+  "damage": {
+    "dice": "1d10",
+    "type": "fire"
+  },
+  "healing": null,
+  "auto_hit": false
+}

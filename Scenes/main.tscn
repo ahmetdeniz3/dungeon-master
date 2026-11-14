@@ -1,0 +1,233 @@
+[gd_scene format=3 uid="uid://cga1765mdoq03"]
+
+[ext_resource type="Script" uid="uid://b8y1iwtkygju" path="res://Main.cs" id="1_8gbba"]
+[ext_resource type="Script" uid="uid://6bg4eybb3aue" path="res://Scripts/DataManager.cs" id="2_jjvhh"]
+[ext_resource type="PackedScene" uid="uid://b7dg3anr6x8nh" path="res://Scenes/CombatUI.tscn" id="3_kry3j"]
+
+[node name="Main" type="Control" unique_id=718220268]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_8gbba")
+
+[node name="HTTPRequest" type="HTTPRequest" parent="." unique_id=1871280352]
+
+[node name="DataManager" type="Node" parent="." unique_id=1565365979]
+script = ExtResource("2_jjvhh")
+
+[node name="RootMargin" type="MarginContainer" parent="." unique_id=201000001]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="Layout" type="HSplitContainer" parent="RootMargin" unique_id=201000002]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="CharacterPanel" type="PanelContainer" parent="RootMargin/Layout" unique_id=201000003]
+custom_minimum_size = Vector2(245, 0)
+layout_mode = 2
+
+[node name="CharMargin" type="MarginContainer" parent="RootMargin/Layout/CharacterPanel" unique_id=201000004]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="CharVBox" type="VBoxContainer" parent="RootMargin/Layout/CharacterPanel/CharMargin" unique_id=201000005]
+layout_mode = 2
+theme_override_constants/separation = 3
+
+[node name="CharTitle" type="Label" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox" unique_id=201000006]
+layout_mode = 2
+text = "KARAKTER"
+
+[node name="CharSummary" type="RichTextLabel" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox" unique_id=201000007]
+custom_minimum_size = Vector2(0, 145)
+layout_mode = 2
+bbcode_enabled = true
+theme_override_font_sizes/normal_font_size = 13
+
+[node name="DeathSaveButton" type="Button" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox" unique_id=201000026]
+visible = false
+layout_mode = 2
+text = "💀 Ölüm Kurtarma Zarı At"
+
+[node name="RestRow" type="HBoxContainer" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox" unique_id=201000027]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="ShortRestButton" type="Button" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox/RestRow" unique_id=201000028]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "⛺ Kısa Dinl."
+
+[node name="LongRestButton" type="Button" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox/RestRow" unique_id=201000029]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "🌙 Uzun Dinl."
+
+[node name="HSeparator1" type="HSeparator" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox" unique_id=201000008]
+layout_mode = 2
+
+[node name="RollTitle" type="Label" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox" unique_id=201000009]
+layout_mode = 2
+text = "Hızlı Beceri / Kurtarma Zarı"
+
+[node name="SkillSelector" type="OptionButton" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox" unique_id=201000010]
+layout_mode = 2
+clip_text = true
+fit_to_longest_item = false
+
+[node name="QuickRollButton" type="Button" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox" unique_id=201000011]
+layout_mode = 2
+text = "🎲 Zar At ve DM'e Gönder"
+
+[node name="HSeparator2" type="HSeparator" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox" unique_id=201000012]
+layout_mode = 2
+
+[node name="TestCombatButton" type="Button" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox" unique_id=201000013]
+layout_mode = 2
+text = "⚔ Test Savaşı Başlat (Goblin)"
+
+[node name="HSeparatorQuests" type="HSeparator" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox" unique_id=201000034]
+layout_mode = 2
+
+[node name="QuestsTitle" type="Label" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox" unique_id=201000035]
+layout_mode = 2
+text = "📜 GÖREVLER"
+
+[node name="QuestView" type="RichTextLabel" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox" unique_id=201000036]
+custom_minimum_size = Vector2(0, 56)
+layout_mode = 2
+bbcode_enabled = true
+theme_override_font_sizes/normal_font_size = 12
+scroll_following = true
+
+[node name="HSeparator3" type="HSeparator" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox" unique_id=201000022]
+layout_mode = 2
+
+[node name="MemoryTitle" type="Label" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox" unique_id=201000023]
+layout_mode = 2
+text = "🧠 DM HAFIZASI"
+
+[node name="MemoryView" type="RichTextLabel" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox" unique_id=201000024]
+custom_minimum_size = Vector2(0, 75)
+layout_mode = 2
+size_flags_vertical = 3
+bbcode_enabled = true
+theme_override_font_sizes/normal_font_size = 12
+scroll_following = true
+
+[node name="CampaignRow" type="HBoxContainer" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox" unique_id=201000030]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="NewCharacterButton" type="Button" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox/CampaignRow" unique_id=201000031]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "🧙 Yeni Karakter"
+
+[node name="ResetCampaignButton" type="Button" parent="RootMargin/Layout/CharacterPanel/CharMargin/CharVBox/CampaignRow" unique_id=201000025]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "🔄 Sıfırla"
+
+[node name="StoryPanel" type="PanelContainer" parent="RootMargin/Layout" unique_id=201000014]
+custom_minimum_size = Vector2(340, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="StoryMargin" type="MarginContainer" parent="RootMargin/Layout/StoryPanel" unique_id=201000015]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="StoryVBox" type="VBoxContainer" parent="RootMargin/Layout/StoryPanel/StoryMargin" unique_id=201000016]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="StoryTitle" type="Label" parent="RootMargin/Layout/StoryPanel/StoryMargin/StoryVBox" unique_id=201000017]
+layout_mode = 2
+text = "AI DUNGEON MASTER"
+
+[node name="Chat" type="RichTextLabel" parent="RootMargin/Layout/StoryPanel/StoryMargin/StoryVBox" unique_id=250726764]
+layout_mode = 2
+size_flags_vertical = 3
+bbcode_enabled = true
+theme_override_font_sizes/normal_font_size = 16
+theme_override_font_sizes/bold_font_size = 16
+scroll_following = true
+
+[node name="PendingRollBar" type="HBoxContainer" parent="RootMargin/Layout/StoryPanel/StoryMargin/StoryVBox" unique_id=201000018]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="PendingRollLabel" type="Label" parent="RootMargin/Layout/StoryPanel/StoryMargin/StoryVBox/PendingRollBar" unique_id=201000019]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Zar istendi:"
+
+[node name="PendingRollButton" type="Button" parent="RootMargin/Layout/StoryPanel/StoryMargin/StoryVBox/PendingRollBar" unique_id=201000020]
+layout_mode = 2
+text = "🎲 İstenen Zarı At"
+
+[node name="InputRow" type="HBoxContainer" parent="RootMargin/Layout/StoryPanel/StoryMargin/StoryVBox" unique_id=201000021]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Input" type="LineEdit" parent="RootMargin/Layout/StoryPanel/StoryMargin/StoryVBox/InputRow" unique_id=764038722]
+layout_mode = 2
+size_flags_horizontal = 3
+placeholder_text = "Ne yapmak istiyorsun?"
+
+[node name="SendButton" type="Button" parent="RootMargin/Layout/StoryPanel/StoryMargin/StoryVBox/InputRow" unique_id=378297950]
+custom_minimum_size = Vector2(100, 36)
+layout_mode = 2
+text = "Gönder"
+
+[node name="CombatUI" parent="RootMargin/Layout" unique_id=235164334 instance=ExtResource("3_kry3j")]
+layout_mode = 2
+
+[node name="CharacterCreateDialog" type="ConfirmationDialog" parent="." unique_id=201000032]
+title = "Yeni Karakter Oluştur"
+initial_position = 2
+size = Vector2i(360, 210)
+ok_button_text = "Maceraya Başla"
+cancel_button_text = "İptal"
+
+[node name="VBox" type="VBoxContainer" parent="CharacterCreateDialog" unique_id=201000033]
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 352.0
+offset_bottom = 161.0
+theme_override_constants/separation = 8
+
+[node name="NameLabel" type="Label" parent="CharacterCreateDialog/VBox" unique_id=201000034]
+layout_mode = 2
+text = "Karakter Adı:"
+
+[node name="CharNameInput" type="LineEdit" parent="CharacterCreateDialog/VBox" unique_id=201000035]
+layout_mode = 2
+placeholder_text = "Örn: Kaelen"
+
+[node name="ClassLabel" type="Label" parent="CharacterCreateDialog/VBox" unique_id=201000036]
+layout_mode = 2
+text = "Sınıf:"
+
+[node name="CharClassOption" type="OptionButton" parent="CharacterCreateDialog/VBox" unique_id=201000037]
+layout_mode = 2

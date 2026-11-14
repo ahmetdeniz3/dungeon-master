@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "ruleset": "DND_2024",
+
+  "id": "",
+  "name": "",
+  "description": "",
+
+  "class": {
+    "id": ""
+  },
+
+  "requirements": {
+    "minimum_class_level": 3,
+    "ability_score_requirements": [],
+    "other": []
+  },
+
+  "features": {
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [],
+    "10": [],
+    "11": [],
+    "12": [],
+    "13": [],
+    "14": [],
+    "15": [],
+    "16": [],
+    "17": [],
+    "18": [],
+    "19": [],
+    "20": []
+  },
+
+  "bonus_proficiencies": {
+    "skills": [],
+    "weapons": [],
+    "armor": [],
+    "tools": [],
+    "languages": []
+  },
+
+  "spellcasting": {
+    "enabled": false,
+    "ability": null,
+    "additional_spells": [],
+    "always_prepared": []
+  },
+
+  "resources": {},
+
+  "modifications": {
+    "ability_scores": [],
+    "saving_throws": [],
+    "skills": [],
+    "speed": {},
+    "senses": {},
+    "resistances": [],
+    "immunities": [],
+    "vulnerabilities": []
+  },
+
+  "choices": [],
+
+  "notes": ""
+}

@@ -1,0 +1,9 @@
+{
+  "id": "torch",
+  "name": "Torch",
+  "description": "Karanlık mağaraları ve zindanları aydınlatan meşale.",
+  "category": "gear",
+  "consumable": true,
+  "healing_dice": "",
+  "value_gp": 1
+}

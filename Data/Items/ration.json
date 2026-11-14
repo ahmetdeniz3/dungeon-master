@@ -1,0 +1,9 @@
+{
+  "id": "ration",
+  "name": "Rations (1 day)",
+  "description": "Bir günlük kuru yolculuk erzağı.",
+  "category": "gear",
+  "consumable": true,
+  "healing_dice": "",
+  "value_gp": 1
+}
